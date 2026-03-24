@@ -1,0 +1,6 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // Must match your Cloudflare Pages project name (create in dashboard or: wrangler pages project create pragmatic)
+  "name": "pragmatic",
+  "pages_build_output_dir": "./dist",
+}
