@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 1.5rem;
+  max-width: 52rem;
+  font-family: monospace;
+  line-height: 1.5;
+  color: #fff;
+  background: #000;
+}
+
+a {
+  color: #fff;
+}
+
+a:visited {
+  color: #fff;
+}
+
+pre {
+  margin: 1rem 0 0;
+  padding: 0;
+  overflow-x: auto;
+}
+
+code {
+  font-family: monospace;
+}
